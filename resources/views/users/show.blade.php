@@ -2,9 +2,9 @@
 
 @section('title', "Usuario {$user->id} ")
 
-<h1>Usuario {{ $user->id }}</h1>
 @section('content')
+  <h1>Usuario {{ $user->id }}</h1>
 
-      Mostrando detalle del user: {{ $user->id }}
-
+  <p>Nombre del usuario: {{ $user->name }}</p>
+  <p>Correo electronico: {{ $user->email }}</p>
 @endsection

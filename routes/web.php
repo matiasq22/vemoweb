@@ -17,9 +17,11 @@ Route::get('/', function () {
 });
 
 
-Route::get('/users/{id}','UserController@show')
-->where('id', '\d+');
+Route::get('/users/{user}','UserController@show')
+->where('user', '\d+');
 
 Route::get('/users/new', 'UserController@create');
+
+Route::post('/users/create', 'UserController@store');
 
 Route::get('/hai/{name}/{nickname}','WelcomeUserController');

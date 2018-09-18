@@ -20,12 +20,19 @@ class UserController extends Controller
        return view('users.index', compact('title','users'));
     }
 
-    public function show($id){
-      $user = User::find($id);
+    public function show(user $user){
+      //$user = User::findOrFail($id);
+
+      //return response()->view('errors.404', [], 404);
+
       return view('users.show', compact('user'));
     }
 
     public function create(){
-      return 'Crate a new user';
+      return view('users.create');
+    }
+
+    public function store(){
+      return 'Processing information....';
     }
 }
