@@ -10,8 +10,9 @@
       @forelse($users as $user)
           <li>
             {{ $user->name }}
-            <a href="{{ url("/user/{$user->id}") }}">Ver detalles</a>
+            <a href="{{ url("/users/{$user->id}") }}">Ver detalles</a>
           </li>
+          
       @empty
           <li> No hay usuarios registrados</li>
       @endforelse

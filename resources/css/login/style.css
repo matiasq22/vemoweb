@@ -1,0 +1,153 @@
+/* CSS Document */
+/* ---------- FONTAWESOME ---------- */
+/* ---------- http://fortawesome.github.com/Font-Awesome/ ---------- */
+
+/* ---------- ERIC MEYER'S RESET CSS ---------- */
+/* ---------- http://meyerweb.com/eric/tools/css/reset/ ---------- */
+
+/* ---------- FONTAWESOME ---------- */
+
+
+
+
+.bodylogin {
+  background: #004995;
+  color: #606468;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+  margin: 0;
+  background-image: url('/css/login/spot.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow:auto;
+  padding: 0;
+  background-position: top center;
+
+}
+
+a {
+  color: #eee;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.input {
+  border: none;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  padding: 0;
+  -webkit-appearance: none;
+}
+
+.p {
+  line-height: 1.5em;
+}
+
+.clearfixi {
+  *zoom: 1;
+}
+.h1login{
+  text-align:center;
+  font-size: 60px;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  color: #f4f6f5;
+  font-family: KeepCalm;
+  text-shadow: 2px 2px 3px #06212b;
+
+}
+
+.plogin{
+  text-align:center;
+  font-size: 16px;
+  color: #f4f6f5;
+  font-family:helvetica, georgia, serif;
+  text-shadow: 2px 2px 3px #06212b;
+}
+.divdirectivs{
+  width: 285px;
+  text-align: center;
+}
+.clearfixi:before, .clearfixi:after {
+  content: ' ';
+  display: table;
+}
+.clearfixi:after {
+  clear: both;
+}
+
+.containerlogin {
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* ---------- LOGIN ---------- */
+#login {
+  width: 280px;
+}
+
+#login form span {
+  background-color: #b6b4c0;
+  border-radius: 3px 0px 0px 3px;
+  color: #3e4246;
+  display: block;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+  font-size: medium;
+}
+
+#login form input {
+  height: 50px;
+}
+
+#login form input[type="text"], input[type="password"] {
+  background-color: #faf8f9;
+  border-radius: 0px 3px 3px 0px;
+  color: #363a3e;
+  margin-bottom: 0.5em;
+  padding: 0 16px;
+  width: 230px;
+}
+
+#login form input[type="submit"] {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background-color: #57c5ea;
+  color: #2b2e37;
+  font-weight: bold;
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  width: 280px;
+}
+
+#login form input[type="submit"]:hover {
+  background-color: #ffbc4b;
+}
+
+#login > p {
+  text-align: center;
+}
+
+#login > p span {
+  padding-left: 5px;
+}
+
+@font-face {
+  font-family: KeepCalm;
+  src: url('/fonts/KeepCalm-Medium.ttf');
+}
+@font-face {
+  font-family: Robotol;
+  src: url('/fonts/roboto/Roboto-Light.ttf');
+}
